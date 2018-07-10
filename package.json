@@ -1,5 +1,5 @@
 {
-  "name": "truffle-compile",
+  "name": "@shyftnetwork/truffle-compile",
   "version": "3.0.8",
   "description": "Compiler helper and artifact manager",
   "main": "index.js",
