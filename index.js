@@ -37,7 +37,7 @@ var compile = function(sources, options, callback) {
   ]);
 
   // Load solc module only when compilation is actually required.
-  var solc = require("solc");
+  var solc = require("@shyftnetwork/shyft_solc");
   // Clean up after solc.
   var listeners = process.listeners("uncaughtException");
   var solc_listener = listeners[listeners.length - 1];
